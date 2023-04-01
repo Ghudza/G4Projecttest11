@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>IBDP Pyramid Adventure</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      background-color: #F0EAD6;
+    }
+    header {
+      background-color: #3E4A4F;
+      color: white;
+      padding: 20px;
+    }
+    button {
+      background-color: #D4AA63;
+      border: none;
+      color: white;
+      padding: 10px 20px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 10px 2px;
+      cursor: pointer;
+    }
+    .ibdp-logo {
+      position: absolute;
+      top: 20px;
+      right: 20px;
+      width: 100px;
+    }
+    .container {
+      position: relative;
+      text-align: center;
+      color: white;
+    }
+    .top-left {
+      position: absolute;
+      top: 100px;
+      left: 780px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>IBDP Pyramid Adventure</h1>
+    <p>Find the hidden IBDP diploma inside the Egyptian Pyramid!</p>
+  </header>
+  <img src="associations-of-ibws_en.png" alt="IBDP Logo" class="ibdp-logo" width="200" height="200"/>
+
+  <section>
+    <h2>Welcome to the G4 IBDP Joke Website!</h2>
+    <p>Are you ready to embark on an epic quest to find the IBDP diploma hidden within the depths of an ancient Egyptian pyramid?</p>
+    <button id="startQuestBtn">Start your quest!</button>
+    <div class="container"> 
+      <img src="Pyramid-of-Khafre-Giza-Egypt.webp" alt="Pyramid" class="pyramid-image" />
+      <div class="top-left" style="font-size:10vw">"Pyramid" </div>
+    </div>
+    <blockquote class="testimonial">
+      "The IBDP Pyramid Adventure is the most thrilling educational experience I've ever had!"
+      <cite>- IBDP Student</cite>
+    </blockquote>
+  </section>
+
+  <script>
+    document.getElementById('startQuestBtn').addEventListener('click', function() {
+      alert('Congratulations! You have successfully found the IBDP diploma hidden in the pyramid. Now you can complete the IBDP programme!');
+    });
+  </script>
+</body>
+</html>
